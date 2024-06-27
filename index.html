@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts/script.js" defer></script>
+    <title> Tabuada com JS</title>
+</head>
+<body>
+    <h3>Calcule o número para ver sua tabuada</h3>
+    <form id="formValores">
+        <label for="userMultiplicando">
+            <p>Tabuada do: </p>
+            <input 
+            type="text" 
+            id="userMultiplicando" 
+            placeholder="Insira um número...">
+        </label>
+        <label for="userMultiplicador">
+            <p>Multiplicar até: </p>
+            <input 
+            type="text" 
+            id="userMultiplicador" 
+            placeholder="Insira um número...">
+        </label>
+        <input 
+        type="submit" 
+        id="btnSubmit">
+    </form>    
+    <h3>Tabuada do número: </h3>
+    <div id="resultados">
+        <p>Informe um número para mostrarmos a sua tabuada aqui!</p>
+        <table>
+            <svg title="Fechar tabuada" id="closeBtn" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                <path d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"/></svg>
+            <tr>
+                <th> Multiplicação </th>
+                <th> Resultado </th>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
